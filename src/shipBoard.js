@@ -366,7 +366,6 @@ const shipLength = 2;
 userBoard.currentPlayer = userPlayer;
 computerBoard.currentPlayer = computerPlayer;
 
-placeShipsRandomly(userBoard, 'User');
 placeShipsRandomly(computerBoard, 'Computer');
 
 // Assign ships to the players

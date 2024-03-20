@@ -251,6 +251,10 @@ function resetGame() {
   console.log(`Initial turn: ${userPlayer.turn ? 'User' : 'Computer'}`);
 }
 
+// Add event listener to the randomize button
+  const randomizeButton = document.getElementById('randomize-button');
+  randomizeButton.addEventListener('click', resetGame);
+
   // Log whose turn it is
   console.log(`Initial turn: ${userPlayer.turn ? 'User' : 'Computer'}`);
 
